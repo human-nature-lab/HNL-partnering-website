@@ -1,0 +1,8 @@
+{
+  "logo": "/HNL_logomark.svg",
+  "links": [{
+    "text": "Full site",
+    "url": "http://humannaturelab.net",
+    "external": false
+  }]
+}
