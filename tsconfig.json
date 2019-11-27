@@ -6,7 +6,11 @@
     "experimentalDecorators": true,
     "noImplicitReturns": true,
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "types": [
+      "vue-meta",
+      "webpack-env"
+    ]
   },
   "paths": {
     "~/*": ["./src/*"],

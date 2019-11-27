@@ -9,4 +9,5 @@ This is the fundraising website for the Human Nature Lab. It is built using [Gri
 
 ### Build
 - `npm run build`
+- upload **dist** directory to hosting
 

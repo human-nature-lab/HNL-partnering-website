@@ -1,8 +1,8 @@
 <template>
   <nav class="navigation flex justify-between flex-wrap">
     <div class="logo" :style="{backgroundImage: `url(${logo})`}"></div>
-    <div class="link" v-for="link in links">
-      <l :to="link.url" :external="link.external" dark class="uppercase">
+    <div class="link" v-for="link in links" :key="link.url">
+      <l :to="link.url" tag="a" external target="_parent" dark class="uppercase">
         {{link.text}}
       </l>
     </div>

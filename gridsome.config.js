@@ -11,6 +11,12 @@ module.exports = {
     favicon: './static/favicon.ico'
   },
   plugins: [{
+    use: '@gridsome/source-filesystem',
+    options: {
+      path: 'data/projects/**/*.md',
+      typeName: 'Project'
+    }
+  }, {
     use: '@gridsome/plugin-google-analytics',
     options: {
       id: ''
@@ -31,6 +37,7 @@ module.exports = {
   }],
   transformers: {
     remark: {
+      grayMatter: {excerpt: true},
       plugins: ["@gridsome/remark-prismjs"]
     }
   }
