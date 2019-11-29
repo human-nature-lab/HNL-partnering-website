@@ -18,5 +18,6 @@
 </script>
 
 <style lang="sass">
-  
+  .header
+    margin-bottom: 100px
 </style>

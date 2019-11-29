@@ -15,7 +15,7 @@
   export default Vue.extend({
     name: 'Navigation',
     data () {
-      return require('../../data/Navigation.json')
+      return require('../../data/navigation.json')
     }
   })
 </script>
@@ -34,5 +34,8 @@
     font-size: .85rem
     margin: $m
   .navigation
+    top: 0
+    width: 100vw
+    position: fixed
     background: rgba(0, 0, 0, 0.8)
 </style>
