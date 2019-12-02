@@ -3,7 +3,9 @@
     <header class="header">
       <Navigation />
     </header>
-    <slot/>
+    <div class="">
+      <slot/>
+    </div>
   </div>
 </template>
 
@@ -19,5 +21,5 @@
 
 <style lang="sass">
   .header
-    margin-bottom: 100px
+    margin-bottom: 80px
 </style>

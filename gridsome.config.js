@@ -10,6 +10,9 @@ module.exports = {
   icons: {
     favicon: './static/favicon.ico'
   },
+  templates: {
+    Project: '/project/:title'
+  },
   plugins: [{
     use: '@gridsome/source-filesystem',
     options: {
@@ -38,7 +41,22 @@ module.exports = {
   transformers: {
     remark: {
       grayMatter: {excerpt: true},
-      plugins: ["@gridsome/remark-prismjs"]
+      plugins: [
+        '@gridsome/remark-prismjs', 
+
+        [require('./plugins/gridsome-remark-customize'), {
+          selectors: {
+            className: {
+              h1: 'text-5xl mb-2 mt-6',
+              h2: 'text-4xl mb-2 mt-6',
+              h3: 'text-3xl mb-2 mt-5',
+              h4: 'text-2xl mb-2 mt-4',
+              h5: 'text-xl mb-2 mt-4',
+              paragraph: 'py-4'
+            }
+          }
+        }]
+      ]
     }
   }
 }

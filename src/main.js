@@ -13,4 +13,8 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'author',
     href: '/humans.txt'
   })
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+  })
 }
