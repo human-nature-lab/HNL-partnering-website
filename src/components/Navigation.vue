@@ -1,5 +1,5 @@
 <template>
-  <nav class="navigation justify-between flex flex-wrap">
+  <nav class="navigation justify-between flex flex-wrap fixed w-screen top-0 z-10">
     <l to="/">
       <div class="logo" :style="{backgroundImage: `url(${logo})`}"></div>
     </l>
@@ -41,8 +41,5 @@
     a
       padding-bottom: 3px
   .navigation
-    top: 0
-    width: 100vw
-    position: fixed
     background: rgba(0, 0, 0, 0.8)
 </style>

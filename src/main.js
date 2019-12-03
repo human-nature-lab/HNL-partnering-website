@@ -17,4 +17,8 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
   })
+  // head.script.push({
+  //   src: 'https://www.google.com/recaptcha/api.js?render=' + process.env.GRIDSOME_RECAPTCHA_KEY,
+  //   body: true
+  // })
 }

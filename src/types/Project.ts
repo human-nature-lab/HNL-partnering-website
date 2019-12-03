@@ -1,9 +1,10 @@
 export interface Project {
-  priority?: number,
-  isEven: boolean,
+  priority?: number
+  title: string
+  isEven: boolean
   image: {
-    src: string,
-    alt?: string,
+    src: string
+    alt?: string
     position?: string
   }
 }

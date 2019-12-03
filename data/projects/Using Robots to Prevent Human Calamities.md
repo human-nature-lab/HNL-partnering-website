@@ -4,9 +4,10 @@
   "image": {
     "src": "../../assets/images/USING ROBOTS TO PREVENT HUMAN CALAMITIES/kevin-marcus-robot-close.jpg"
   },
-  "goals": [
-    "$10,000,000"
-  ],
+  "goals": [{
+    "cost": "$100,000",
+    "description": ""
+  }],
   "priority": 3,
   "excerpt": "How can physical robots affect collective action? – By programming humanoid robots to speak and act in particular ways, we can modify how human observing the robots treat each other, enhancing their ability to address collective action problems."
 }

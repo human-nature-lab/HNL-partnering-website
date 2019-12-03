@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Human Nature Lab at Yale',
+  siteUrl: 'giving.humannaturelab.net',
   siteDescription: '',
   icons: {
     favicon: './static/favicon.ico'
@@ -37,6 +38,14 @@ module.exports = {
     }
   }, {
     use: 'gridsome-plugin-typescript',
+  }, {
+    use: '@gridsome/plugin-sitemap',
+    options: {
+      '/project/*': {
+        changefreq: 'monthly',
+        priority: 0.5
+      }
+    }
   }],
   transformers: {
     remark: {
@@ -52,6 +61,8 @@ module.exports = {
               h3: 'text-3xl mb-2 mt-5',
               h4: 'text-2xl mb-2 mt-4',
               h5: 'text-xl mb-2 mt-4',
+              link: 'underline text-blue-500 hover:no-underline',
+              linkReference: 'underline text-blue-500 hover:no-underline',
               paragraph: 'py-4'
             }
           }

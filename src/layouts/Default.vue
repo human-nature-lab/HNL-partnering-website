@@ -3,9 +3,7 @@
     <header class="header">
       <Navigation />
     </header>
-    <div class="">
-      <slot/>
-    </div>
+    <slot />
   </div>
 </template>
 
@@ -20,6 +18,9 @@
 </script>
 
 <style lang="sass">
+  .layout
+    // background-image: url('../../assets/textures/random-2.png')
+    // background-repeat: repeat
   .header
     margin-bottom: 80px
 </style>

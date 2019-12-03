@@ -1,47 +1,36 @@
 <template>
   <Layout>
-    <div class="p-4 max-w-5xl m-auto">
-      <h1 class="text-4xl py-6">Current Opportunities to Support Frontier Science at the Human Nature Lab</h1>
-      <p>
-        {{description}}
-      </p>
-      <hr class="my-16">
+    <div class="max-w-5xl m-auto px-3 md:px-6">
+      <div>
+        <h1 class="text-4xl py-6">Current Opportunities to Support Frontier Science at the Human Nature Lab</h1>
+        <p>
+          {{description}}
+        </p>
+      </div>
+      <h2 class="text-3xl mt-16">Projects</h2>
+      <hr class="mt-2 mb-16">
       <div class="projects">
         <template v-for="project in projects">
-          <div class="project flex md:flex-row" 
-            :class="project.isEven ? 'flex-col' : 'flex-col-reverse'"
+          <div class="project my-16 flex flex-col md:shadow-md" 
+            :class="project.isEven ? 'md:flex-row' : 'md:flex-row-reverse'"
             :key="project.id">
-            <div class="image flex-shrink-0 md:w-1/3 w-full h-64" v-if="project.image && project.isEven">
+            <div class="image flex-shrink-0 w-full h-64 md:max-w-1/3" v-if="project.image">
               <g-image 
                 class="h-full object-cover" 
                 :src="project.image.src"
                 :alt="project.image.alt"
                 v-if="project.image.src" />
             </div>
-            <div class="content py-6 md:py-0" :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
+            <div class="md:p-6 content py-6" :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
               <h3 class="text-2xl mb-2">{{project.title}}</h3>
               <p class="excerpt pt-4 pb-6">
                 {{project.excerpt}}
               </p>
-              <!-- <ul class="prices">
-                <li class="price py-2" v-for="goal in project.goals" :key="goal">
-                  {{goal}}
-                </li>
-              </ul> -->
-              <l 
-                  class="px-4 py-2 button" 
-                  :to="project.path">Learn more</l>
-              <!-- <button class="px-4 py-2 bg-gray-300" @click="openProject(project)">Learn more</button> -->
-            </div>
-            <div class="image flex-shrink-0 md:w-1/3 w-full h-64" v-if="project.image && !project.isEven">
-              <g-image 
-                class="h-full object-cover" 
-                :src="project.image.src"
-                :alt="project.image.alt"
-                v-if="project.image.src" />
+              <l class="px-4 py-2 button" 
+                 :to="project.path">Learn more</l>
             </div>
           </div>
-          <hr class="my-16">
+          <!-- <hr class="my-16"> -->
         </template>
       </div>
     </div>
@@ -60,7 +49,10 @@ query {
         content
         title
         excerpt
-        goals
+        goals {
+          cost
+          description
+        }
         path
         priority
         timeToRead
@@ -111,6 +103,8 @@ query {
 <style lang="sass" scoped>
   $buttonText: #000A23
   $buttonColor: rgba(0, 10, 14, .10)
+  .project
+    background-color: #fcfcfc
   .button
     transition: all .2s
     background-color: $buttonColor
@@ -122,7 +116,7 @@ query {
   // .image
   //   width: 33%
   .image
-    // height: 250px
+    // height: 100%
   //   img 
   //     max-width: 50vw
   //     max-height: 100%
