@@ -3,8 +3,7 @@
   "title": "Do Germs Influence The Spread Of Emotional States Among People?",
   "image": {
     "description": "This image show a network graph with clusters of groups with similar emotions",
-    "src": "../../assets/images/DO GERMS INFLUENCE THE SPREAD OF EMOTIONAL STATES AMONG PEOPLE/happiness-clusters.large.jpg",
-    "position": "50% 25%"
+    "src": "../../assets/images/DO GERMS INFLUENCE THE SPREAD OF EMOTIONAL STATES AMONG PEOPLE/A9R1t90om9_il7sr5_75g.jpg"
   },
   "goals": [{
     "cost": "$100,000",

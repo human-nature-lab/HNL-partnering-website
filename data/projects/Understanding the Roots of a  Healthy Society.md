@@ -1,10 +1,13 @@
 ---json
 {
-  "title": "Understanding the Roots of a  Healthy Society",
+  "title": "Understanding the Roots of a Healthy Society",
   "excerpt": "Why do some communities thrive and others succumb to dysfunction? – By implementing novel, experimental measurement tools, we will be able to understand how social connections in groups may affect the ability of individuals to work together.",
   "goals": [{
     "cost": "$1,000,000",
-    "description": "Buys us a private jet so we can travel the world comfortably and in style."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget massa in mauris consequat fermentum. Aliquam hendrerit pharetra nisl eget accumsan. Phasellus eu bibendum elit."
+  }, {
+    "cost": "$10,000",
+    "description": "Proin dictum tristique metus, id blandit enim efficitur eu. Quisque quis varius tortor. Quisque vel porttitor tellus. Nullam mi ex, efficitur a libero in, efficitur posuere est. Pellentesque laoreet nisi at venenatis posuere. Nulla gravida dui sit amet massa posuere bibendum. Cras sit amet purus blandit, congue mi sit amet, tempor nulla. Nunc porttitor ex ut nibh sodales finibus. Nunc viverra nisl eros, quis blandit metus ultricies quis."
   }],
   "priority": 0,
   "image": {

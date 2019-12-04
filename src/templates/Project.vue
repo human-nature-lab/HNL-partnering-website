@@ -17,7 +17,7 @@
         <h3 class="text-2xl mb-2 uppercase font-semibold border-b">What we need</h3>
         <div class="w-full">
           <div class="block mt-4 md:flex items-center" v-for="goal in project.goals" :key="goal.cost">
-            <div class="md:pl-6 md:w-1/4 w-full py-2 font-bold whitespace-no-wrap flex flex-no-wrap flex-none text-right">
+            <div class="md:pl-6 md:w-1/4 lg:w-1/5 w-full py-2 font-bold whitespace-no-wrap flex flex-no-wrap flex-none">
               <div>{{goal.cost}}</div>
               <div class="px-6 hidden md:block">-</div>
             </div>

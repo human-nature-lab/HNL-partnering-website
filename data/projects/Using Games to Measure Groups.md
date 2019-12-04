@@ -4,7 +4,8 @@
   "excerpt": "Can a one-hour test of group performance in the workplace be as accurate as manager’s ratings based on yearlong evaluations? – Groups of workers have distinctive properties, and it should be possible to measure such collective properties using novel tests, specifically games played in group networks.",
   "goals": [],
   "image": {
-    "src": "../../assets/images/ray-rui-SyzQ5aByJnE-unsplash.jpg"
+    "position": "50% 35%",
+    "src": "../../assets/images/USING GAMES TO MEASURE GROUP EFFECTIVENESS/ap-x-90-opCe0gdrhng-unsplash.jpg"
   }
 }
 ---

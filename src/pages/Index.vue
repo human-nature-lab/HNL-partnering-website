@@ -17,12 +17,14 @@
             :class="project.isEven ? 'md:flex-row' : 'md:flex-row-reverse'"
             :key="project.id">
             <div class="image flex-shrink-0 flex-initial w-full md:max-w-1/3 h-64 md:h-auto">
-              <g-image 
-                v-if="project.image && project.image.src"
-                class="h-full object-cover" 
-                :style="imageStyle(project.image)"
-                :alt="project.image.description"
-                :src="project.image.src" />
+              <l :to="project.path">
+                <g-image 
+                  v-if="project.image && project.image.src"
+                  class="h-full object-cover" 
+                  :style="imageStyle(project.image)"
+                  :alt="project.image.description"
+                  :src="project.image.src" />
+              </l>
             </div>
             <div class="md:px-6 py-6 content " :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
               <h3 class="text-2xl mb-2">
