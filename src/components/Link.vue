@@ -29,6 +29,10 @@
         type: Boolean,
         default: true
       },
+      addStyle: {
+        type: Boolean,
+        default: false
+      },
       name: String
     },
     computed: {
@@ -42,6 +46,9 @@
         }
         if (this.dark) {
           classes.push('text-white')
+        }
+        if (this.addStyle) {
+          classes.push('underline text-blue-500 hover:no-underline')
         }
         return this.external ? {
           href: this.to,
