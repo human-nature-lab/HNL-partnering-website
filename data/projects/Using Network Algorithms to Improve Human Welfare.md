@@ -8,8 +8,9 @@
   }],
   "priority": 1,
   "image": {
+    "description": "A member of the Human Nature Lab research team poses in front of a green field in Honduras.",
     "src": "../../assets/images/USING NETWORK ALGORITHMS TO IMPROVE HUMAN WELFARE/honduras-leader-1-21880131032_44499606dc_o.jpg",
-    "position": "50% 20%"
+    "position": "70% 30%"
   }
 }
 ---

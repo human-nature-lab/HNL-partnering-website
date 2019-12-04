@@ -2,7 +2,9 @@
 {
   "title": "Do We Have Genes That Drive Us To Seek Friends Who Share These Genes?",
   "image": {
-    "src": "../../assets/images/DO WE HAVE GENES THAT DRIVE US TO SEEK FRIENDS WHO SHARE THESE GENES/network-pnas.jpg"
+    "src": "../../assets/images/DO WE HAVE GENES THAT DRIVE US TO SEEK FRIENDS WHO SHARE THESE GENES/network-pnas.jpg",
+    "description": "Comparison of community structure in real and simulated networks. (A) School 115 (57 nodes and 252 ties) from the Add Health data. (B) Simulated network, using the Attract and Introduce model and the same number of nodes and ties. These networks show significant modularity with well-defined communities that have many connections within their group and few connections to other groups. Colors indicate communities that maximize  modularity (11) (modularity  0.35 in real network; modularity  0.34 in simulated network)",
+    "position": "top left"
   },
   "goals": [{
     "cost": "$100,000,000",

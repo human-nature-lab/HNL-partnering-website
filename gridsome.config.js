@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Human Nature Lab at Yale',
   siteUrl: 'giving.humannaturelab.net',
-  siteDescription: '',
+  siteDescription: require('./data/projects.json').description,
   icons: {
     favicon: './static/favicon.ico'
   },
@@ -31,7 +31,7 @@ module.exports = {
       tailwindConfig: './tailwind.js',
       purgeConfig: {},
       presetEnvConfig: {},
-      shouldPurge: true,
+      shouldPurge: false,
       shouldImport: true,
       shouldTimeTravel: true,
       shouldPurgeUnusedKeyframes: true,

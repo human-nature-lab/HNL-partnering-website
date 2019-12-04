@@ -2,7 +2,9 @@
 {
   "title": "Using Robots to Prevent Human Calamities",
   "image": {
-    "src": "../../assets/images/USING ROBOTS TO PREVENT HUMAN CALAMITIES/kevin-marcus-robot-close.jpg"
+    "description": "A group of participants play a tablet based game with a physical robot.",
+    "src": "../../assets/images/USING ROBOTS TO PREVENT HUMAN CALAMITIES/kevin-marcus-robot-close.jpg",
+    "position": "50% 30%"
   },
   "goals": [{
     "cost": "$100,000",

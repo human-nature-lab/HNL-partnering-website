@@ -2,32 +2,39 @@
   <Layout>
     <div class="max-w-5xl m-auto px-3 md:px-6">
       <div>
-        <h1 class="text-4xl py-6">Current Opportunities to Support Frontier Science at the Human Nature Lab</h1>
+        <h1 class="text-4xl py-6">
+          Current Opportunities to Support Frontier Science at the Human Nature Lab
+        </h1>
         <p>
           {{description}}
         </p>
       </div>
-      <h2 class="text-3xl mt-16">Projects</h2>
+      <h2 class="text-3xl mt-16">Opportunities</h2>
       <hr class="mt-2 mb-16">
       <div class="projects">
         <template v-for="project in projects">
-          <div class="project my-16 flex flex-col md:shadow-md" 
+          <div class="project md:shadow my-16 flex flex-col items-stretch md:max-h-project" 
             :class="project.isEven ? 'md:flex-row' : 'md:flex-row-reverse'"
             :key="project.id">
-            <div class="image flex-shrink-0 w-full h-64 md:max-w-1/3" v-if="project.image">
+            <div class="image flex-shrink-0 flex-initial w-full md:max-w-1/3 h-64 md:h-auto">
               <g-image 
+                v-if="project.image && project.image.src"
                 class="h-full object-cover" 
-                :src="project.image.src"
-                :alt="project.image.alt"
-                v-if="project.image.src" />
+                :style="imageStyle(project.image)"
+                :alt="project.image.description"
+                :src="project.image.src" />
             </div>
-            <div class="md:p-6 content py-6" :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
-              <h3 class="text-2xl mb-2">{{project.title}}</h3>
+            <div class="md:px-6 py-6 content " :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
+              <h3 class="text-2xl mb-2">
+                <l :to="project.path">
+                  {{project.title}}
+                </l>
+              </h3>
               <p class="excerpt pt-4 pb-6">
                 {{project.excerpt}}
               </p>
-              <l class="px-4 py-2 button" 
-                 :to="project.path">Learn more</l>
+              <l class="px-4 py-2 button hover:text-white whitespace-no-wrap" 
+                 :to="project.path">Read more about this research</l>
             </div>
           </div>
           <!-- <hr class="my-16"> -->
@@ -43,11 +50,13 @@ query {
     edges {
       node {
         id
+        title
         image {
           src
+          description
+          position
         }
         content
-        title
         excerpt
         goals {
           cost
@@ -64,12 +73,12 @@ query {
 
 <script lang="ts">
   import Vue from 'vue'
-  import Modal from '../components/Modal.vue'
+  import ImageStyle from '../mixins/ImageStyle'
   import { Project } from '../types/Project'
 
   export default Vue.extend({
     name: 'Index',
-    components: { Modal },
+    mixins: [ImageStyle],
     metaInfo: {
       title: 'Giving'
     },
@@ -101,23 +110,12 @@ query {
 
 
 <style lang="sass" scoped>
-  $buttonText: #000A23
   $buttonColor: rgba(0, 10, 14, .10)
   .project
     background-color: #fcfcfc
   .button
     transition: all .2s
     background-color: $buttonColor
-    color: $buttonText
     &:hover
       background-color: rgba(0, 10, 14, .30)
-  // .project
-  //   height: 60vh
-  // .image
-  //   width: 33%
-  .image
-    // height: 100%
-  //   img 
-  //     max-width: 50vw
-  //     max-height: 100%
 </style>
