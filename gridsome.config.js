@@ -9,8 +9,8 @@ module.exports = {
   siteName: 'Human Nature Lab at Yale',
   siteUrl: 'giving.humannaturelab.net',
   siteDescription: require('./data/projects.json').description,
-  icons: {
-    favicon: './static/favicon.ico'
+  icon: {
+    favicon: './assets/favicon.png'
   },
   templates: {
     Project: '/project/:title'
