@@ -2,8 +2,12 @@
 {
   "title": "Can We Identify Nice People With Our Sense Of Smell?",
   "image": {
-    "src": "../../assets/images/franck-v-JjGXjESMxOY-unsplash.jpg"
+    "description": "A vial of liquid is being held underneath a microscope",
+    "src": "../../assets/images/CAN WE IDENTIFY NICE PEOPLE WITH OUR SENSE OF SMELL/science-in-hd-9kSTF9PvETM-unsplash.jpg",
+    "position": "50% 75%",
+    "attribution": "Photo by Science in HD on Unsplash"
   },
+  "priority": 5,
   "goals": [{
     "cost": "$100,000",
     "description": ""

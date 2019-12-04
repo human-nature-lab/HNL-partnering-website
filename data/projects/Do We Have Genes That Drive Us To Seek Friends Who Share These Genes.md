@@ -13,7 +13,7 @@
     "cost": "$1,000,000",
     "description": "Another goal"
   }],
-  "priority": 2,
+  "priority": 1,
   "excerpt": "How are the friends we choose genetically similar to us? – It seems likely that natural selection has shaped how we go about making and choosing friends, but this process, so fundamental to the workings of our societies, is still incompletely understood."
 }
 ---

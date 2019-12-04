@@ -2,12 +2,13 @@
 {
   "title": "Using Bots to Enhance Human Cooperation",
   "image": {
-    "src": "../../assets/images/franck-v-JjGXjESMxOY-unsplash.jpg"
+    "src": "../../assets/images/USING BOTS TO ENHANCE HUMAN COOPERATION/embedded-bots-d.jpg"
   },
   "goals": [{
     "cost": "$100,000",
     "description": ""
   }],
+  "priority": 2,
   "excerpt": "How can online bots, endowed with AI, enhance human cooperation? – By rewiring social connections using autonomous agents, we can make groups of people more effective at cooperation and better able to solve diverse collective actions problems."
 }
 ---

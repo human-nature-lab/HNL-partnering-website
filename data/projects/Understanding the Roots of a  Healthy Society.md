@@ -2,9 +2,14 @@
 {
   "title": "Understanding the Roots of a  Healthy Society",
   "excerpt": "Why do some communities thrive and others succumb to dysfunction? – By implementing novel, experimental measurement tools, we will be able to understand how social connections in groups may affect the ability of individuals to work together.",
-  "goals": [],
+  "goals": [{
+    "cost": "$1,000,000",
+    "description": "Buys us a private jet so we can travel the world comfortably and in style."
+  }],
+  "priority": 0,
   "image": {
-    "src": "../../assets/images/ray-rui-SyzQ5aByJnE-unsplash.jpg"
+    "position": "50% 20%",
+    "src": "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/research_face-to-face.jpg"
   }
 }
 ---

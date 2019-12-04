@@ -2,30 +2,42 @@
   <layout v-if="project">
     <div class="banner shadow-xl relative z-1">
       <div class="image-container">
-        <AnImage :image="project.image" />
+        <g-image v-if="project.image && project.image.src"
+          class="object-cover" 
+          :style="imageStyle(project.image)"
+          :alt="project.image.description"
+          :src="project.image.src" />
       </div>
     </div>
     <div class="project-page bg-white p-6 max-w-5xl mx-auto text-base md:text-lg">
       <h1 class="text-3xl md:text-5xl my-6">{{project.title}}</h1>
       <p class="py-6 text-lg font-semibold md:text-xl">{{project.excerpt}}</p>
       <div v-html="project.content"></div>
-      <div class="mt-8">
-        <h3 class="text-2xl mb-2 uppercase font-semibold">What we need</h3>
-        <table class="w-full table-auto">
-          <tbody>
-            <tr class="table-row" v-for="goal in project.goals" :key="goal.cost">
-              <td class="pl-6 py-2 w-2">{{goal.cost}}</td>
-              <td class="w-2 px-6"> - </td>
-              <td class="py-2">{{goal.description}}</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="mt-8" v-if="project.goals.length">
+        <h3 class="text-2xl mb-2 uppercase font-semibold border-b">What we need</h3>
+        <div class="w-full">
+          <div class="block mt-4 md:flex items-center" v-for="goal in project.goals" :key="goal.cost">
+            <div class="md:pl-6 md:w-1/4 w-full py-2 font-bold whitespace-no-wrap flex flex-no-wrap flex-none text-right">
+              <div>{{goal.cost}}</div>
+              <div class="px-6 hidden md:block">-</div>
+            </div>
+            <div class="py-2 w-full">{{goal.description}}</div>
+            <div class="py-2 md:px-6 flex-grow-0">
+              <Email class="py-2 px-6 bg-blue-300 cursor-pointer hover:bg-blue-200 whitespace-no-wrap"
+                :email="email.email" 
+                :subject="evalTemplate(email.subject, project)" 
+                :body="evalTemplate(email.body, project)">
+                Support this
+              </Email>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact my-6">
+      <!-- <div class="contact my-6">
         <Email :email="email.email" :subject="evalTemplate(email.subject, project)" :body="evalTemplate(email.body, project)">
           {{evalTemplate(contactMessage, project)}}
         </Email>
-      </div>
+      </div> -->
     </div>
   </layout>
 </template>

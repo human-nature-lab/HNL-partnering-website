@@ -1,5 +1,5 @@
 <template>
-  <nav class="navigation justify-between flex flex-wrap fixed w-screen top-0 z-10">
+  <nav class="navigation justify-between flex fixed w-screen top-0 z-10">
     <l to="/">
       <div class="hidden">HNL</div>
       <div class="logo" :style="{backgroundImage: `url(${logo})`}"></div>
@@ -9,10 +9,15 @@
         <Email :email="email.email" :subject="email.subject">Contact Us</Email>
       </div>
       <div class="link" v-for="link in links" :key="link.url">
-        <l :to="link.url" tag="a" external target="_parent" dark :underline="false" class="uppercase">
-          {{link.text}}
-        </l>
-      </div>
+          <l :to="link.url" tag="a" external target="_parent" dark :underline="false" class="uppercase">
+            <span class="hidden sm:block">
+              {{link.text}}
+            </span>
+            <div class="block sm:hidden">
+              {{link.shortText}}
+            </div>
+          </l>
+        </div>
     </div>
 
   </nav>
@@ -34,13 +39,15 @@
 <style lang="sass">
   $m: 1.5em
   .logo
-    margin: $m
+    margin: $m 0
+    margin-left: $m
     width: 5em
     height: 2em
     background-repeat: no-repeat
   .links
     margin: 1.2em 1em
   .link
+    white-space: nowrap
     padding: 0.5em 0.7em
     font-weight: 100
     letter-spacing: 1px

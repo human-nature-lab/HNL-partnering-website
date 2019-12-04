@@ -6,7 +6,7 @@
     "cost": "$100,000",
     "description": ""
   }],
-  "priority": 1,
+  "priority": 2,
   "image": {
     "description": "A member of the Human Nature Lab research team poses in front of a green field in Honduras.",
     "src": "../../assets/images/USING NETWORK ALGORITHMS TO IMPROVE HUMAN WELFARE/honduras-leader-1-21880131032_44499606dc_o.jpg",

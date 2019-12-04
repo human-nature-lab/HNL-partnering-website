@@ -6,7 +6,7 @@
   },
   "goals": [{
     "cost": "$100,000",
-    "description": ""
+    "description": "To expand the number of people included in our dataset, to ascertain the genotypes of the microbes in large samples, and to analyze the data."
   }],
   "excerpt": "Can we map networks of microbiome species in order to identify species crucial to our physical and mental health? – Our bodies form the environment in which large number of microbes live, and those microbes often work together to affect our health, for better or worse."
 }

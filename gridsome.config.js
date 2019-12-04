@@ -3,6 +3,7 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   siteName: 'Human Nature Lab at Yale',
@@ -13,6 +14,9 @@ module.exports = {
   },
   templates: {
     Project: '/project/:title'
+  },
+  chainWebpack (config) {
+    config.stats('verbose')
   },
   plugins: [{
     use: '@gridsome/source-filesystem',
@@ -33,8 +37,8 @@ module.exports = {
       presetEnvConfig: {},
       shouldPurge: false,
       shouldImport: true,
-      shouldTimeTravel: true,
-      shouldPurgeUnusedKeyframes: true,
+      // shouldTimeTravel: false,
+      // shouldPurgeUnusedKeyframes: isProd,
     }
   }, {
     use: 'gridsome-plugin-typescript',
@@ -42,7 +46,7 @@ module.exports = {
     use: '@gridsome/plugin-sitemap',
     options: {
       '/project/*': {
-        changefreq: 'monthly',
+        changefreq: 'weekly',
         priority: 0.5
       }
     }

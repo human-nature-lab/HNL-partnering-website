@@ -2,14 +2,14 @@
   <Layout>
     <div class="max-w-5xl m-auto px-3 md:px-6">
       <div>
-        <h1 class="text-4xl py-6">
+        <h1 class="text-3xl md:text-4xl py-6">
           Current Opportunities to Support Frontier Science at the Human Nature Lab
         </h1>
         <p>
           {{description}}
         </p>
       </div>
-      <h2 class="text-3xl mt-16">Opportunities</h2>
+      <h2 class="text-2xl md:text-3xl mt-16">Opportunities</h2>
       <hr class="mt-2 mb-16">
       <div class="projects">
         <template v-for="project in projects">

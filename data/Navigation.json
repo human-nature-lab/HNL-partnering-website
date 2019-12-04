@@ -2,11 +2,12 @@
   "logo": "/HNL_logomark.svg",
   "links": [{
     "text": "Human Nature Lab",
+    "shortText": "Full site",
     "url": "http://humannaturelab.net",
     "external": false
   }],
   "email": {
     "email": "nicholas.christakis@yale.edu",
-    "subject": "Giving to the Human Nature Lab"
+    "subject": "Giving to the Human Nature Lab at Yale"
   }
 }
