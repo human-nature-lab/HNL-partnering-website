@@ -6,10 +6,23 @@
     </l>
     <div class="links flex">
       <div class="link uppercase text-white">
-        <Email :email="email.email" :subject="email.subject">Contact Us</Email>
+        <Email 
+          :email="email.email" 
+          :subject="email.subject"
+          @click="track('email', 'click', 'Contact Us')">
+          Contact Us
+        </Email>
       </div>
       <div class="link" v-for="link in links" :key="link.url">
-          <l :to="link.url" tag="a" external target="_parent" dark :underline="false" class="uppercase">
+          <l 
+            :to="link.url" 
+            tag="a" 
+            external 
+            dark 
+            target="_parent" 
+            :underline="false"
+            @click="record('link', 'click', 'HNL exit')"
+            class="uppercase">
             <span class="hidden sm:block">
               {{link.text}}
             </span>

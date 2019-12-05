@@ -9,6 +9,7 @@
   },
   "priority": 5,
   "goals": [{
+    "id": "A",
     "cost": "$100,000",
     "description": ""
   }],

@@ -7,6 +7,7 @@
     "position": "50% 30%"
   },
   "goals": [{
+    "id": "A",
     "cost": "$100,000",
     "description": ""
   }],

@@ -1,7 +1,9 @@
 <template>
-  <component :is="linkType" v-bind="linkProps">
-    <slot />
-  </component>
+  <span class="link-wrapper" @click.capture="$emit('click', $event)">
+    <component :is="linkType" v-bind="linkProps">
+      <slot />
+    </component>
+  </span>
 </template>
 
 <script lang="ts">

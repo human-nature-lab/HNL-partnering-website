@@ -30,6 +30,7 @@
         a.target = this.target
         document.body.appendChild(a)
         a.click()
+        this.$emit('click', this.subject, this.body)
         setTimeout(() => {
           document.body.removeChild(a)
         })

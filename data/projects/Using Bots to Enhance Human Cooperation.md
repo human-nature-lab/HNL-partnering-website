@@ -5,6 +5,7 @@
     "src": "../../assets/images/USING BOTS TO ENHANCE HUMAN COOPERATION/embedded-bots-d.jpg"
   },
   "goals": [{
+    "id": "A",
     "cost": "$100,000",
     "description": ""
   }],

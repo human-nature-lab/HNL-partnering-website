@@ -3,11 +3,14 @@
 import './main.sass'
 import DefaultLayout from '~/layouts/Default.vue'
 import Link from './components/Link.vue'
+import AnalyticsEvents from './mixins/AnalyticsEvents'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('l', Link)
   Vue.component('Layout', DefaultLayout)
+
+  Vue.mixin(AnalyticsEvents)
 
   head.link.push({
     rel: 'author',

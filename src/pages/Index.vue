@@ -17,7 +17,7 @@
             :class="project.isEven ? 'md:flex-row' : 'md:flex-row-reverse'"
             :key="project.id">
             <div class="image flex-shrink-0 flex-initial w-full md:max-w-1/3 h-64 md:h-auto">
-              <l :to="project.path">
+              <l :to="project.path" @click="onProjectNav(project, 'image')">
                 <g-image 
                   v-if="project.image && project.image.src"
                   class="h-full object-cover" 
@@ -28,15 +28,16 @@
             </div>
             <div class="md:px-6 py-6 content " :class="project.isEven ? 'md:pl-8' : 'md:pr-8'">
               <h3 class="text-2xl mb-2">
-                <l :to="project.path">
+                <l :to="project.path" @click="onProjectNav(project, 'title')">
                   {{project.title}}
                 </l>
               </h3>
               <p class="excerpt pt-4 pb-6">
                 {{project.excerpt}}
               </p>
-              <l class="px-4 py-2 button hover:text-white whitespace-no-wrap" 
-                 :to="project.path">Read more about this research</l>
+              <l class="px-4 py-2 button hover:text-white whitespace-no-wrap"
+                @click="onProjectNav(project, 'read more')"
+                :to="project.path">Read more about this research</l>
             </div>
           </div>
           <!-- <hr class="my-16"> -->
@@ -86,6 +87,11 @@ query {
     },
     data () {
       return require('../../data/projects.json')
+    },
+    methods: {
+      onProjectNav (project: Project, component: string) {
+        this.track('link', 'project', component)
+      }
     },
     computed: {
       projects (): Project[] {

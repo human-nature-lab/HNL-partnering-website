@@ -6,6 +6,7 @@
     "src": "../../assets/images/DO GERMS INFLUENCE THE SPREAD OF EMOTIONAL STATES AMONG PEOPLE/A9R1t90om9_il7sr5_75g.jpg"
   },
   "goals": [{
+    "id": "A",
     "cost": "$100,000",
     "description": ""
   }],

@@ -13,5 +13,8 @@ declare module 'vue/types/vue' {
   interface Vue {
     $page: SMap
     $static: SMap
+    $ga: {
+      event (o: SMap): void
+    }
   }
 }

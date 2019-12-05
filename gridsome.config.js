@@ -27,7 +27,7 @@ module.exports = {
   }, {
     use: '@gridsome/plugin-google-analytics',
     options: {
-      id: ''
+      id: process.env.GOOGLE_ANALYTICS_ID
     }
   }, {
     use: 'gridsome-plugin-tailwindcss',

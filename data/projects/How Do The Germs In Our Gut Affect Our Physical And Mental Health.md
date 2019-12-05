@@ -5,6 +5,7 @@
     "src": "../../assets/images/franck-v-JjGXjESMxOY-unsplash.jpg"
   },
   "goals": [{
+    "id": "A",
     "cost": "$100,000",
     "description": "To expand the number of people included in our dataset, to ascertain the genotypes of the microbes in large samples, and to analyze the data."
   }],

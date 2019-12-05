@@ -26,7 +26,8 @@
               <Email class="py-2 px-6 bg-blue-300 cursor-pointer hover:bg-blue-200 whitespace-no-wrap"
                 :email="email.email" 
                 :subject="evalTemplate(email.subject, project)" 
-                :body="evalTemplate(email.body, project)">
+                :body="evalTemplate(email.body, project)"
+                @click="track('email', 'click', project.title + '-goal-' + goal.id)">
                 Support this
               </Email>
             </div>
@@ -46,8 +47,10 @@
 query ($id: ID!) {
   project(id: $id) {
     title
+    path
     excerpt
     goals {
+      id
       cost
       description
     }
