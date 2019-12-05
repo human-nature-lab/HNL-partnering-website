@@ -25,8 +25,8 @@
             <div class="py-2 md:px-6 flex-grow-0">
               <Email class="py-2 px-6 bg-blue-300 cursor-pointer hover:bg-blue-200 whitespace-no-wrap"
                 :email="email.email" 
-                :subject="evalTemplate(email.subject, project)" 
-                :body="evalTemplate(email.body, project)"
+                :subject="evalTemplate(email.subject, {project, goal})" 
+                :body="evalTemplate(email.body, {project, goal})"
                 @click="track('email', 'click', project.title + '-goal-' + goal.id)">
                 Support this
               </Email>

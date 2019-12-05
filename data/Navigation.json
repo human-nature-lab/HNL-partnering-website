@@ -1,9 +1,9 @@
 {
   "logo": "/HNL_logomark.svg",
   "links": [{
-    "text": "Human Nature Lab",
-    "shortText": "Full site",
-    "url": "http://humannaturelab.net",
+    "text": "Home",
+    "shortText": "Home",
+    "url": "/",
     "external": false
   }],
   "email": {

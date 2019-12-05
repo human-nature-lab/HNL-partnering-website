@@ -4,7 +4,7 @@
   "contactMessage": "Contact us to support this project or for more information",
   "email": {
     "email": "nicholas.christakis@yale.edu",
-    "subject": "Regarding ${title}",
-    "body": "Dear Nicholas,\n\nI would like to donate ${goals.length ? goals[0].cost : '$10,000'} to support ongoing research of ${title}."
+    "subject": "Regarding ${project.title}",
+    "body": "Dear Nicholas,\n\nI’m interested in providing ${goal.id === 'B' ? 'major ' : ''}support for your research on ${project.title}."
   }
 }

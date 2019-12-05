@@ -1,0 +1,37 @@
+{
+  "links": {
+    "hnl": "http://humannaturelab.net",
+    "christakis": "http://humannaturelab.net/christakis",
+    "research": "http://humannaturelab.net/research",
+    "people": "http://humannaturelab.net/people",
+    "teaching": "http://humannaturelab.net/teaching",
+    "yins": "http://yins.yale.edu"
+  },
+  "address": [
+    "P.O. Box 208263",
+    "New Haven, CT 06520-8263"
+  ],
+  "copyright": "Copyright 2020 Human Nature Lab. All rights reserved",
+  "social": {
+    "instagram": {
+      "href": "https://www.instagram.com/humannaturelab/",
+      "icon": "/icons/instagram.svg"
+    },
+    "youtube": {
+      "href": "https://www.youtube.com/channel/UClWOaO-iO04UqsHdXAJh-MQ",
+      "icon": "/icons/youtube.svg"
+    },
+    "github": {
+      "href": "https://github.com/human-nature-lab",
+      "icon": "/icons/github.svg"
+    },
+    "flickr": {
+      "href": "https://www.flickr.com/photos/128836851@N08/",
+      "icon": "/icons/flickr.svg"
+    },
+    "twitter": {
+      "href": "https://twitter.com/nachristakis",
+      "icon": "/icons/twitter.svg"
+    }
+  }
+}
