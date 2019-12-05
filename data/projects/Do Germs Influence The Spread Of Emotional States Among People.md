@@ -3,14 +3,20 @@
   "title": "Do Germs Influence The Spread Of Emotional States Among People?",
   "image": {
     "description": "This image show a network graph with clusters of groups with similar emotions",
-    "src": "../../assets/images/DO GERMS INFLUENCE THE SPREAD OF EMOTIONAL STATES AMONG PEOPLE/A9R1t90om9_il7sr5_75g.jpg"
+    "src": "../../assets/images/DO GERMS INFLUENCE THE SPREAD OF EMOTIONAL STATES AMONG PEOPLE/Artboard 15000.png",
+    "attribution": "David Kim",
+    "position": "50% 20%"
   },
   "goals": [{
     "id": "A",
-    "cost": "$100,000",
-    "description": ""
+    "cost": "$280,000",
+    "description": "We seek funds to cover costs to conduct in-depth analysis exploring the idea of emotional contagion using our existing data set. Funds will cover the hiring of a dedicated post-doctoral researcher as well as general support for our data management team over a 2-year period. "
+  }, {
+    "id": "B",
+    "cost": "$1 million",
+    "description": "Funding at this level would cover all operational and research management costs related to the expansion of our research dataset by recruiting 1,000 new participants as well conducting microbiome sequencing analysis for this new set of individuals during the first year of the project. In addition, funds cover research data management and analysis costs during Year 2 of the project. Expected outcomes would include novel findings on the relationship of the microbiome to the spread of emotional states among people in a population."
   }],
-  "priority": 4,
+  "priority": 6,
   "excerpt": "Does the spread of microbes between people underlie emotional contagion? – It’s been known for a long time that emotions spread from person to person; but maybe this is partly due to an actual, biological, contagion of the microbes within us."
 }
 ---

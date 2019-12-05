@@ -8,14 +8,14 @@
   },
   "goals": [{
     "id": "A",
-    "cost": "$100,000,000",
-    "description": "A goal"
+    "cost": "$200,000",
+    "description": "Support at this level would cover costs related to genotyping 1,000 research participants as well as support efforts of our research team conducting data analysis related to this topic over a 1-year period."
   }, {
     "id": "B",
-    "cost": "$1,000,000",
-    "description": "B another goal"
+    "cost": "$1.8 million",
+    "description": "Support at this level would cover all costs associated with recruitment of an additional 1,000 participants into the Microbiome study and cover costs for related to genotyping for 2,000 samples over a 2- year period, allowing for the expansion of our genotyped dataset to 3,000 individuals. It provides funding support for our field operations and data analysis teams in both years. Expected outcomes would include novel findings on the genetic relationships among non-kin pairs of friends and addressing how our genes might make us seek out and bond with others who share those genes."
   }],
-  "priority": 1,
+  "priority": 8,
   "excerpt": "How are the friends we choose genetically similar to us? – It seems likely that natural selection has shaped how we go about making and choosing friends, but this process, so fundamental to the workings of our societies, is still incompletely understood."
 }
 ---

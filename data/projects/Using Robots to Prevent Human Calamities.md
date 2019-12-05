@@ -8,10 +8,14 @@
   },
   "goals": [{
     "id": "A",
-    "cost": "$100,000",
-    "description": ""
+    "cost": "$180,000",
+    "description": "This level of support would cover equipment and research support for design and execution to test project ideas and prototypes over 1- year period, including salary support for research coordinators and the research scientist in our team leading the work."
+  }, {
+    "id": "B",
+    "cost": "$1 million",
+    "description": "This level of support would cover costs related to developing and testing the bot/AI infrastructure using cooperation as a model system, including support for research staff, software development, and data analysis over a 3-year period."
   }],
-  "priority": 3,
+  "priority": 2,
   "excerpt": "How can physical robots affect collective action? – By programming humanoid robots to speak and act in particular ways, we can modify how human observing the robots treat each other, enhancing their ability to address collective action problems."
 }
 ---

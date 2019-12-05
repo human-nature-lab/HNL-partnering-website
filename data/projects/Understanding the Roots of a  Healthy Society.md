@@ -4,17 +4,17 @@
   "excerpt": "Why do some communities thrive and others succumb to dysfunction? – By implementing novel, experimental measurement tools, we will be able to understand how social connections in groups may affect the ability of individuals to work together.",
   "goals": [{
     "id": "A",
-    "cost": "$1,000,000",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget massa in mauris consequat fermentum. Aliquam hendrerit pharetra nisl eget accumsan. Phasellus eu bibendum elit."
+    "cost": "$250,000",
+    "description": "This level of support would cover the costs of conducting pilot work in the lab setting and in the field. Funds directly support team member effort as well as operations for the pilot testing in Honduras over a 1-year period."
   }, {
     "id": "B",
-    "cost": "$10,000",
-    "description": "Proin dictum tristique metus, id blandit enim efficitur eu. Quisque quis varius tortor. Quisque vel porttitor tellus. Nullam mi ex, efficitur a libero in, efficitur posuere est. Pellentesque laoreet nisi at venenatis posuere. Nulla gravida dui sit amet massa posuere bibendum. Cras sit amet purus blandit, congue mi sit amet, tempor nulla. Nunc porttitor ex ut nibh sodales finibus. Nunc viverra nisl eros, quis blandit metus ultricies quis."
+    "cost": "$1.9 million",
+    "description": "This level of support would cover the full design and implementation of this innovative research protocol using experimental tools to measure cooperation in 176 villages in Copan, Honduras as well as and analysis work by our research team over 2.5 years. Expected outcomes would include published findings from this novel research program examining how behavior in networks affects the common good."
   }],
-  "priority": 0,
+  "priority": 4,
   "image": {
-    "position": "50% 20%",
-    "src": "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/research_face-to-face.jpg"
+    "position": "50% 60%",
+    "src": "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/DSC_1235.jpg"
   }
 }
 ---

@@ -21,7 +21,7 @@
               <div>{{goal.cost}}</div>
               <div class="px-6 hidden md:block">-</div>
             </div>
-            <div class="py-2 w-full">{{goal.description}}</div>
+            <div class="py-2 w-full" v-html="goal.description" />
             <div class="py-2 md:px-6 flex-grow-0">
               <Email class="py-2 px-6 bg-blue-300 cursor-pointer hover:bg-blue-200 whitespace-no-wrap"
                 :email="email.email" 

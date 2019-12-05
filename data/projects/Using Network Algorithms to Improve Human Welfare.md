@@ -4,10 +4,14 @@
   "excerpt": "How can we create epidemics of positive cultural changes, such as the adoption of better health practices? – By using an understanding of the mathematics of social networks, we can identify a small subset of people, in any group, whose structural position within the network makes them very influential. We can tap into this hidden group of influencers to drive the group towards desirable outcomes.",
   "goals": [{
     "id": "A",
-    "cost": "$100,000",
-    "description": ""
+    "cost": "$350,000",
+    "description": "This level of support would cover the costs of adding two post-doctoral researchers to our research team to conduct focused analyses. It would also provide project support to enhance our current dissemination and outreach capacity over a 1-year period."
+  }, {
+    "id": "B",
+    "cost": "$2.2 million",
+    "description": "This level of support would cover costs related to conducting a re-mapping of social networks in all 176 villages in Copan, Honduras as well as an additional wave of data collection of a health and behavior survey for our cohort of 30,000 people. This includes support for our research team to design and implement the study protocol, as well as operational costs related to field data collection in Honduras over 2.5 years. Expected outcomes would include major new discoveries about how network science can have a positive impact on human societies."
   }],
-  "priority": 2,
+  "priority": 1,
   "image": {
     "description": "A member of the Human Nature Lab research team poses in front of a green field in Honduras.",
     "src": "../../assets/images/USING NETWORK ALGORITHMS TO IMPROVE HUMAN WELFARE/honduras-leader-1-21880131032_44499606dc_o.jpg",

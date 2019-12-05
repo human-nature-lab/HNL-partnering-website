@@ -7,11 +7,15 @@
     "position": "50% 75%",
     "attribution": "Photo by Science in HD on Unsplash"
   },
-  "priority": 5,
+  "priority": 7,
   "goals": [{
     "id": "A",
-    "cost": "$100,000",
-    "description": ""
+    "cost": "$300,000",
+    "description": "Support at this level would cover costs related to piloting procedures and initial implementation of the work based in New Haven. It covers costs for equipment, participant payments, laboratory materials and supplies and GCMS analysis over a 2-year period."
+  }, {
+    "id": "B",
+    "cost": "$850,000",
+    "description": "Support at this level would cover costs related to initial piloting work in New Haven as well as implementation of the successful study protocols in our cohort of villages in Copan, Honduras, covering all operational costs to conduct field work and data analysis over a 3-year period."
   }],
   "excerpt": "Can humans pick up chemical signals that clue us in on who can be trusted? – We all have had the experience of instantly judging people to be trustworthy or untrustworthy, and there is some evidence we do this by looking at people’s faces; but humans might also respond to other cues, such as the constituents of human sweat."
 }

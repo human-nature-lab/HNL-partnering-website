@@ -2,10 +2,19 @@
 {
   "title": "Using Games To Measure Group Effectiveness",
   "excerpt": "Can a one-hour test of group performance in the workplace be as accurate as manager’s ratings based on yearlong evaluations? – Groups of workers have distinctive properties, and it should be possible to measure such collective properties using novel tests, specifically games played in group networks.",
-  "goals": [],
+  "goals": [{
+    "id": "A",
+    "cost": "$125,000",
+    "description": "This level of support would cover costs to consult with our research team who would provide guidance on the execution of a short-term project testing the applicability of our current tools in a workplace environment made available by the donor."
+  }, {
+    "id": "B",
+    "cost": "$1.5 million",
+    "description": "This level of support would provide an opportunity to collaborate directly with our research team to create a project using our innovative scientific methods as well as our partner’s interests, implementing strategies at their business site to seek practical solutions to the problem of team assessment. It provides funding for the implementation and analysis of the work conducted by our research team over a 2-year period."
+  }],
+  "priority": 9,
   "image": {
     "position": "50% 35%",
-    "src": "../../assets/images/USING GAMES TO MEASURE GROUP EFFECTIVENESS/ap-x-90-opCe0gdrhng-unsplash.jpg"
+    "src": "../../assets/images/USING GAMES TO MEASURE GROUP EFFECTIVENESS/perry-grone-lbLgFFlADrY-unsplash.jpg"
   }
 }
 ---
