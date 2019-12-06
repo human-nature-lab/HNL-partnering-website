@@ -3,7 +3,11 @@
     <header class="header">
       <Navigation />
     </header>
-    <slot />
+    <transition name="fade" appear>
+      <main>
+        <slot />
+      </main>
+    </transition>
     <Footer />
   </div>
 </template>
@@ -20,9 +24,12 @@
 </script>
 
 <style lang="sass">
-  .layout
-    // background-image: url('../../assets/textures/random-2.png')
-    // background-repeat: repeat
   .header
     margin-bottom: 80px
+  
+  .fade-enter
+    opacity: 0
+  .fade-enter-active
+    transition: opacity .5s
+    
 </style>

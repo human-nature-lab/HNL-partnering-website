@@ -21,14 +21,8 @@
             dark 
             target="_parent" 
             :underline="false"
-            @click="record('link', 'click', 'HNL exit')"
             class="uppercase">
-            <span class="hidden sm:block">
-              {{link.text}}
-            </span>
-            <div class="block sm:hidden">
-              {{link.shortText}}
-            </div>
+            {{link.text}}
           </l>
         </div>
     </div>

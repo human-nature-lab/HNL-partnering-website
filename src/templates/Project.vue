@@ -14,12 +14,11 @@
       <p class="py-6 text-lg font-semibold md:text-xl">{{project.excerpt}}</p>
       <div v-html="project.content"></div>
       <div class="mt-8" v-if="project.goals.length">
-        <h3 class="text-2xl mb-2 uppercase font-semibold border-b">What we need</h3>
+        <h3 class="text-2xl mb-2 uppercase font-semibold border-b">What your support achieves</h3>
         <div class="w-full">
-          <div class="block mt-4 md:flex items-center" v-for="goal in project.goals" :key="goal.cost">
-            <div class="md:pl-6 md:w-1/4 lg:w-1/5 w-full py-2 font-bold whitespace-no-wrap flex flex-no-wrap flex-none">
+          <div class="block mt-8 md:flex items-center" v-for="goal in project.goals" :key="goal.cost">
+            <div class="md:pl-6 md:w-1/5 w-full pt-2 text-xl font-bold whitespace-no-wrap flex flex-no-wrap flex-none">
               <div>{{goal.cost}}</div>
-              <div class="px-6 hidden md:block">-</div>
             </div>
             <div class="py-2 w-full" v-html="goal.description" />
             <div class="py-2 md:px-6 flex-grow-0">

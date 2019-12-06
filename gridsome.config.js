@@ -7,7 +7,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   siteName: 'Human Nature Lab at Yale',
-  siteUrl: 'giving.humannaturelab.net',
+  siteUrl: process.env.SITE_URL,
   siteDescription: require('./data/projects.json').description,
   icon: {
     favicon: './assets/favicon.png'

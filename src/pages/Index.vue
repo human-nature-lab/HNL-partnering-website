@@ -83,7 +83,7 @@ query {
     name: 'Index',
     mixins: [ImageStyle],
     metaInfo: {
-      title: 'Giving'
+      title: process.env.GRIDSOME_SITE_NAME
     },
     data () {
       return require('../../data/projects.json')

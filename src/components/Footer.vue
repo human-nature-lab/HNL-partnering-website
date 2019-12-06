@@ -9,7 +9,7 @@
             </l>
           </li>
           <li class="text-gray-200 font-sm" v-for="link in leftLinks" :key="link[0]">
-            <l :to="link[1]" class="text-gray-500 hover:text-white" :underline="false">
+            <l :to="link[1]" class="grey hover:text-white" :underline="false">
               {{link[0]}}
             </l>
           </li>
@@ -20,16 +20,16 @@
           <l :to="links.yins">
             <div class="name pb-2">Yale Institute for Network Science</div>
           </l>
-          <div v-for="line in address" :key="line" class="text-gray-500">
+          <div v-for="line in address" :key="line" class="grey">
             {{line}}
           </div>
         </div>
         <div class="copyright py-4">
           <div>Yale University</div>
-          <div class="text-gray-500">{{copyright}}</div>
+          <div class="grey">{{copyright}}</div>
         </div>
       </div>
-      <div class="px-6 py-4 text-gray-500">
+      <div class="px-6 py-4 grey">
         <div>Visit Us On Social Media</div>
         <ul class="flex">
           <li v-for="(link, text) in social" :key="link.href" class="social capitalize hover:text-white w-8 h-8 p-1 mt-3 mr-3 rounded">
@@ -67,4 +67,6 @@
     filter: brightness(75%)
     &:hover
       filter: none
+  .grey
+    color: rgba(255, 255, 255, .5)
 </style>
