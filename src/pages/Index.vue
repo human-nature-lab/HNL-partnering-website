@@ -3,13 +3,13 @@
     <div class="max-w-5xl m-auto px-3 md:px-6">
       <div>
         <h1 class="text-3xl md:text-4xl py-6">
-          Current Opportunities to Support Frontier Science at the Human Nature Lab
+          {{title}}
         </h1>
         <p>
-          {{description}}
+          Here you will find information about our latest ideas, many of which are in need of financial support in order to move from the planning stages to reality. Our team would welcome the chance to tell you more about our work in person, and to explore how our work can advance your own philanthropic objectives.  Please email Nicholas Christakis <Email :email="email.email" :subject="email.subject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to schedule a talk or in-person presentation about any of these opportunities.
         </p>
       </div>
-      <h2 class="text-2xl md:text-3xl mt-16">Opportunities</h2>
+      <h2 class="text-2xl md:text-3xl mt-16">{{projectsTitle}}</h2>
       <hr class="mt-2 mb-16">
       <div class="projects">
         <template v-for="project in projects">
@@ -32,9 +32,7 @@
                   {{project.title}}
                 </l>
               </h3>
-              <p class="excerpt pt-4 pb-6">
-                {{project.excerpt}}
-              </p>
+              <p class="excerpt pt-4 pb-6" v-html="project.excerpt" />
               <l class="px-4 py-2 button hover:text-white whitespace-no-wrap"
                 @click="onProjectNav(project, 'read more')"
                 :to="project.path">Read more about this research</l>
@@ -77,16 +75,20 @@ query {
 <script lang="ts">
   import Vue from 'vue'
   import ImageStyle from '../mixins/ImageStyle'
+  import Email from '../components/Email'
   import { Project } from '../types/Project'
 
   export default Vue.extend({
     name: 'Index',
     mixins: [ImageStyle],
+    components: { Email },
     metaInfo: {
       title: process.env.GRIDSOME_SITE_NAME
     },
     data () {
-      return require('../../data/projects.json')
+      const d = require('../../data/projects.json')
+      d.email = require('../../data/navigation.json').email
+      return d
     },
     methods: {
       onProjectNav (project: Project, component: string) {

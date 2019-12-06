@@ -11,7 +11,7 @@
     </div>
     <div class="project-page bg-white p-6 max-w-5xl mx-auto text-base md:text-lg">
       <h1 class="text-3xl md:text-5xl my-6">{{project.title}}</h1>
-      <p class="py-6 text-lg font-semibold md:text-xl">{{project.excerpt}}</p>
+      <p class="py-6 text-lg font-semibold md:text-xl" v-html="project.excerpt" />
       <div v-html="project.content"></div>
       <div class="mt-8" v-if="project.goals.length">
         <h3 class="text-2xl mb-2 uppercase font-semibold border-b">What your support achieves</h3>
