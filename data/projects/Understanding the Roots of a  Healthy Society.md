@@ -2,7 +2,7 @@
 {
   "title": "Understanding the Roots of a Healthy Society",
   "priority": 4,
-  "excerpt": "Why do some communities thrive and others succumb to dysfunction? There are deep roots to a healthy society. By implementing novel, experimental measurement tools, we will be able to understand how social connections in groups may affect the ability of individuals to work together.",
+  "excerpt": "Why do some communities thrive and others succumb to dysfunction? There are deep roots to a healthy society, and by implementing novel experimental approaches, we are able to understand how social connections in groups may affect the ability of individuals to work together.",
   "goals": [{
     "id": "A",
     "cost": "$250,000",

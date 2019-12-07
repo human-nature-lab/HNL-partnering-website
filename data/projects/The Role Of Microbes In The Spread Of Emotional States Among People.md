@@ -1,6 +1,6 @@
 ---json
 {
-  "title": "The Role Of Microbes In The Spread Of Emotional States Among People",
+  "title": "The Role of Microbes in the Spread of Emotional States",
   "priority": 6,
   "image": {
     "description": "This image show a network graph with clusters of groups with similar emotions",

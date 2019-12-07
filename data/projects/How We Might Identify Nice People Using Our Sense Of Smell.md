@@ -1,6 +1,6 @@
 ---json
 {
-  "title": "How We Might Identify Nice People Using Our Sense Of Smell",
+  "title": "How We Might Identify Nice People Using Our Sense of Smell",
   "image": {
     "description": "A vial of liquid is being held underneath a microscope",
     "src": "../../assets/images/CAN WE IDENTIFY NICE PEOPLE WITH OUR SENSE OF SMELL/science-in-hd-9kSTF9PvETM-unsplash.jpg",
@@ -17,7 +17,7 @@
     "cost": "$850,000",
     "description": "Support at this level would cover costs related to initial piloting work in New Haven as well as implementation of the successful study protocols in our cohort of villages in Copan, Honduras, covering all operational costs to conduct field work and data analysis over a 3-year period."
   }],
-  "excerpt": "Can humans pick up chemical signals that clue us in on who can be trusted? We all have had the experience of instantly judging people to be trustworthy or untrustworthy, and there is some evidence we do this by looking at people’s faces; humans might also respond to other cues, such as the constituents of human sweat, using our sense of smell."
+  "excerpt": "Can humans detect chemical signals that clue us in to who can be trusted? We all have had the experience of instantly judging people to be trustworthy or untrustworthy, and there is some evidence we do this by looking at people’s faces. But humans might also respond to other cues, such as the constituents of sweat, using our sense of smell."
 }
 ---
 

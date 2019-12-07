@@ -6,7 +6,10 @@
           {{title}}
         </h1>
         <p>
-          Here you will find information about our latest ideas, many of which are in need of financial support in order to move from the planning stages to reality. Our team would welcome the chance to tell you more about our work in person, and to explore how our work can advance your own philanthropic objectives.  Please email Nicholas Christakis <Email :email="email.email" :subject="email.subject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to schedule a talk or in-person presentation about any of these opportunities.
+          Many of our latest ideas are in need of financial support in order to move from the planning stages to reality. We work at the intersection of the sociological, computational and social sciences in diverse areas &#151; from the microbiome to artificial intelligence to public health to organizational behavior to network science. 
+        </p>
+        <p class="py-4">
+          Our team would welcome the chance to tell you more about our work in person, and to explore how our work can advance your own philanthropic objectives.  Please email Nicholas Christakis <Email :email="email.email" :subject="email.subject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to schedule a talk or in-person presentation about any of these projects.
         </p>
       </div>
       <h2 class="text-2xl md:text-3xl mt-16">{{projectsTitle}}</h2>

@@ -1,6 +1,6 @@
 ---json
 {
-  "title": "Genes That Drive Us To Seek Friends Who Share These Genes",
+  "title": "How Genes Affect Our Choice of Friends",
   "priority": 8,
   "image": {
     "src": "../../assets/images/DO WE HAVE GENES THAT DRIVE US TO SEEK FRIENDS WHO SHARE THESE GENES/PastedGraphic-1.jpg",

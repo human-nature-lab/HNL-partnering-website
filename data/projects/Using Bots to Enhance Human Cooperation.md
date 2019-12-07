@@ -1,7 +1,7 @@
 ---json
 {
   "title": "Using Bots to Enhance Human Cooperation",
-  "priority": 5,
+  "priority": 3,
   "image": {
     "position": "50% 25%",
     "src": "../../assets/images/USING BOTS TO ENHANCE HUMAN COOPERATION/embedded-bots-d.jpg"

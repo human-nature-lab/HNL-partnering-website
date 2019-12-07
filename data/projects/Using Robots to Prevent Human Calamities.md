@@ -1,7 +1,7 @@
 ---json
 {
   "title": "Using Robots to Prevent Human Calamities",
-  "priority": 2,
+  "priority": 5,
   "image": {
     "description": "A group of participants play a tablet based game with a physical robot.",
     "src": "../../assets/images/USING ROBOTS TO PREVENT HUMAN CALAMITIES/kevin-marcus-robot-close.jpg",
@@ -16,7 +16,7 @@
     "cost": "$1 million",
     "description": "This level of support would cover costs related to developing and testing the bot/AI infrastructure (using navigation and cooperation as model systems), including support for research staff, software development, and data analysis over a 3-year period."
   }],
-  "excerpt": "How can physical robots affect collective action? By programming humanoid robots to speak and act in particular ways, we can modify how the humans observing the robots treat other humans, enhancing their ability to address collective action problems."
+  "excerpt": "How can physical robots affect collective action? By programming humanoid robots to speak and act in particular ways, we can modify how the humans observing the robots treat other humans, enhancing our ability to address collective action problems."
 }
 ---
 

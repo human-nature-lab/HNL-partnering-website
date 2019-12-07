@@ -1,12 +1,12 @@
 ---json
 {
-  "title": "Using Games To Measure Group Effectiveness",
+  "title": "Using Games to Measure Workplace Group Effectiveness",
   "priority": 9,
-  "excerpt": "Can a one-hour test of group performance in the workplace be as accurate as manager’s ratings based on yearlong evaluations? Groups of workers jointly have distinctive properties, and it should be possible to measure such collective properties using novel tests. We can use special games to measure group effectiveness.",
+  "excerpt": "Can a one-hour test of group performance in the workplace be as accurate as manager’s ratings based on yearlong evaluations? Groups of workers jointly have distinctive properties, and it should be possible to measure such collective properties using novel tests. We can use special games to rapidly assess group effectiveness.",
   "goals": [{
     "id": "A",
     "cost": "$125,000",
-    "description": "This level of support would cover costs to consult with our research team who would provide guidance on the execution of a short-term project testing the applicability of our current tools in a workplace environment made available by the donor. "
+    "description": "This level of support would cover costs to consult with our research team. We would provide guidance on the execution of a short-term project testing the applicability of our current tools in a workplace environment made available by the donor. "
   }, {
     "id": "B",
     "cost": "$1.5 million",
@@ -19,8 +19,10 @@
 }
 ---
 
-Managers struggle with getting people to work together, and the performance of teams may often have more to do with how people interact than with who they are as individuals. For instance, accident rates at factories staffed by similar assortments of people may vary greatly or rates of corporate policy violations (e.g., with respect to password sharing) may vary across groups of employees.  This variation may relate to how people are connected to each other or how they interact together to create norms within their groups. In other words, variation in many team performance outcomes may be a network phenomenon.
+Managers struggle with getting people to work together, and the performance of teams may often have more to do with how people interact than with who they are as individuals. For instance, accident rates at factories staffed by similar assortments of people or rates of corporate policy violations (e.g., with respect to password sharing) may vary greatly across groups of employees. This variation may relate to how people are connected to each other or how they interact together to create norms within their groups. In other words, variation in many team performance outcomes may be a network phenomenon.
 
-We see examples of successful group performance all around us, yet we know that many work settings also seem plagued by dysfunction arising out of a failure to successfully meet challenges to achieving common goals.  Just as connecting the same carbon atoms differently has drastically different results – creating graphite or diamond – so too can putting the same people together in different ways result in phenomenal productivity or in dysfunction and failure.
+Just as connecting the same carbon atoms differently has drastically different results – creating graphite or diamond – so too can putting the same people together in different ways result in phenomenal productivity or in dysfunction. Groups can have properties not present in the workers themselves. We have shown this to be the case, both in online experiments with groups and in one workplace so far.
 
-We believe that new properties – like innovativeness, safety, reliability, and so on – can emerge within groups at workplaces because of the ties between the workers more than because of the workers themselves. In this project, we will build on tools – specifically, online scenario games – we have developed to do field tests of this claim and to elucidate how we can specifically identify features of groups that lead to different kinds of success and failure. 
+We believe that new properties – like innovativeness, safety, reliability, cooperation, and so on – can emerge within groups at workplaces. In this project, we will build on tools – specifically, our [breadboard] software and our online scenario games – that we have developed to do field tests of this claim and to elucidate how we can specifically identify features of groups that lead to different kinds of success and failure. 
+
+[breadboard]: http://breadboard.yale.edu

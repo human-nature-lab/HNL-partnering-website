@@ -1,8 +1,8 @@
 ---json
 {
   "priority": 1,
-  "title": "Using Network Algorithms to Improve Human Welfare",
-  "excerpt": "How can we create epidemics of positive cultural changes, such as the adoption of better health practices from scratch? By using an understanding of the mathematics of social networks, we can identify a small subset of people, in any group, whose structural position within the network makes them very influential. We can tap into this hidden group of influencers to drive the group towards desirable outcomes and improve human welfare.",
+  "title": "Using Network Targeting Algorithms to Improve Human Welfare",
+  "excerpt": "How can we create epidemics of positive cultural changes, such as the adoption of better health practices, from scratch? By using an understanding of the mathematics of social networks, we can identify a small subset of people, in any group, whose structural position within the network makes them very influential. We can tap into this hidden group of influencers to drive the group towards desirable outcomes and improve human welfare.",
   "goals": [{
     "id": "A",
     "cost": "$350,000",
