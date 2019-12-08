@@ -10,7 +10,7 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
     addMetadata('email', 'nicholas.christakis@yale.edu')
     addMetadata('projectEmailSubject', 'Regarding ${project.title}')
-    addMetadata('projectEmailBody', "Dear Nicholas,\n\nI’m interested in providing ${goal.id === 'B' ? 'major ' : ''}support for your research on ${project.title}.")
+    addMetadata('projectEmailBody', "Dear Nicholas,\n\nI'm potentially interested in supporting this project and I'd like to learn more.")
     
     addMetadata('basicEmailSubject', 'Partnering with the Human Nature Lab')
     addMetadata('basicEmailBody', '')
