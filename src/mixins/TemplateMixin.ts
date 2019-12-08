@@ -1,4 +1,5 @@
-export default {
+import Vue from 'vue'
+export default Vue.extend({
   methods: {
     evalTemplate (template: string, argMap: {[key: string]: string}): string {
       if (!template) return ''
@@ -24,7 +25,9 @@ export default {
         'return `' + template + '`;' +
       '})()'
       const f = new Function(...argNames, funcString)
-      return f(...argVals)
+      const res = f(...argVals)
+      console.log(res)
+      return res
     }
   }
-}
+})

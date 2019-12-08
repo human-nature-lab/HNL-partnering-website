@@ -6,10 +6,10 @@
           {{title}}
         </h1>
         <p>
-          Many of our latest ideas are in need of financial support in order to move from the planning stages to reality. We work at the intersection of the sociological, computational and social sciences in diverse areas &#151; from the microbiome to artificial intelligence to public health to organizational behavior to network science. 
+          We work at the intersection of the biological, computational, and social sciences in diverse areas &#151; from the microbiome to artificial intelligence to public health to organizational behavior to network science. Many of our latest ideas are in need of financial support in order to move from the planning stages to reality. 
         </p>
         <p class="py-4">
-          Our team would welcome the chance to tell you more about our work in person, and to explore how our work can advance your own philanthropic objectives.  Please email Nicholas Christakis <Email :email="email.email" :subject="email.subject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to schedule a talk or in-person presentation about any of these projects.
+          Our team would welcome the chance to tell you more about our work in person and to explore how our work can advance your own philanthropic objectives.  Please email Nicholas Christakis <Email :email="$static.metadata.email" :subject="$static.metadata.basicEmailSubject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to schedule a talk or in-person presentation about any of these projects.
         </p>
       </div>
       <h2 class="text-2xl md:text-3xl mt-16">{{projectsTitle}}</h2>
@@ -50,6 +50,10 @@
 
 <static-query>
 query {
+  metadata {
+    email
+    basicEmailSubject
+  }
   projects: allProject {
     edges {
       node {
@@ -78,7 +82,7 @@ query {
 <script lang="ts">
   import Vue from 'vue'
   import ImageStyle from '../mixins/ImageStyle'
-  import Email from '../components/Email'
+  import Email from '../components/Email.vue'
   import { Project } from '../types/Project'
 
   export default Vue.extend({

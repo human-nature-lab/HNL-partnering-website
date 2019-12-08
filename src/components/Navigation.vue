@@ -7,8 +7,8 @@
     <div class="links flex">
       <div class="link uppercase text-white">
         <Email 
-          :email="email.email" 
-          :subject="email.subject"
+          :email="$static.metadata.email" 
+          :subject="$static.metadata.basicEmailSubject"
           @click="track('email', 'click', 'Contact Us')">
           Contact Us
         </Email>
@@ -29,6 +29,15 @@
 
   </nav>
 </template>
+
+<static-query>
+query {
+  metadata {
+    email
+    basicEmailSubject
+  }
+}
+</static-query>
 
 <script lang="ts">
   import Vue from 'vue'

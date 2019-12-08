@@ -23,9 +23,9 @@
             <div class="py-2 w-full" v-html="goal.description" />
             <div class="py-2 md:px-6 flex-grow-0">
               <Email class="py-2 px-6 bg-blue-300 cursor-pointer hover:bg-blue-200 whitespace-no-wrap"
-                :email="email.email" 
-                :subject="evalTemplate(email.subject, {project, goal})" 
-                :body="evalTemplate(email.body, {project, goal})"
+                :email="$static.metadata.email" 
+                :subject="evalTemplate($static.metadata.projectEmailSubject, {project, goal})" 
+                :body="evalTemplate($static.metadata.projectEmailBody, {project, goal})"
                 @click="track('email', 'click', project.title + '-goal-' + goal.id)">
                 Support this
               </Email>
@@ -41,6 +41,16 @@
     </div>
   </layout>
 </template>
+
+<static-query>
+query {
+  metadata {
+    email
+    projectEmailSubject
+    projectEmailBody
+  }
+}
+</static-query>
 
 <page-query>
 query ($id: ID!) {
