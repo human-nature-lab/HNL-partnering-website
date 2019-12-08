@@ -36,7 +36,7 @@
                 </l>
               </h3>
               <p class="excerpt pt-4 pb-6" v-html="project.excerpt" />
-              <l class="px-4 py-2 button hover:text-white whitespace-no-wrap"
+              <l targetClass="button inline-block px-4 py-2 hover:text-white whitespace-no-wrap"
                 @click="onProjectNav(project, 'read more')"
                 :to="project.path">Read more about this research</l>
             </div>
@@ -126,7 +126,7 @@ query {
 </script>
 
 
-<style lang="sass" scoped>
+<style lang="sass">
   $buttonColor: rgba(0, 10, 14, .10)
   .project
     background-color: #fcfcfc

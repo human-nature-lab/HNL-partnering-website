@@ -1,6 +1,6 @@
 <template>
   <span class="link-wrapper" @click.capture="$emit('click', $event)">
-    <component :is="linkType" v-bind="linkProps">
+    <component :is="linkType" v-bind="linkProps" ref="link">
       <slot />
     </component>
   </span>
@@ -35,14 +35,18 @@
         type: Boolean,
         default: false
       },
-      name: String
+      name: String,
+      targetClass: {
+        type: String,
+        default: ''
+      }
     },
     computed: {
       linkType (): String {
         return this.external ? 'a' : 'g-link'
       },
       linkProps (): object {
-        let classes = []
+        let classes = this.targetClass.split(' ')
         if (this.underline) {
           classes.push('hover:underline')
         }
