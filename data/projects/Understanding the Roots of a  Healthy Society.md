@@ -4,24 +4,14 @@ title: Understanding the Roots of a Healthy Society
 goals:
 - id: A
   cost: "$250,000"
-  description: This level of support would cover the costs of conducting pilot work in 
-    the lab setting and in the field. Funds directly support team member effort as well 
-    as operations for the pilot testing in Honduras over a 1-year period.
+  description: This level of support would cover the costs of conducting pilot work in the lab setting and in the field. Funds directly support team member effort as well as operations for the pilot testing in Honduras over a 1-year period.
 - id: B
   cost: "$1.9 million"
-  description: This level of support would cover the full design and implementation of 
-    this innovative research protocol using experimental tools to measure cooperation in
-    176 villages in Copan, Honduras as well as analysis work by our research team over 
-    2.5 years. Expected outcomes would include published findings from this novel research 
-    program examining how the actual structure of human interactions in rural villages 
-    affects the common good.
+  description: This level of support would cover the full design and implementation of this innovative research protocol using experimental tools to measure cooperation in176 villages in Copan, Honduras as well as analysis work by our research team over 2.5 years. Expected outcomes would include published findings from this novel research program examining how the actual structure of human interactions in rural villages affects the common good.
 image:
   position: 50% 60%
   src: "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/DSC_1235.jpg"
-excerpt: Why do some communities thrive and others succumb to dysfunction? There are 
-  deep roots to a healthy society, and, by implementing novel experimental approaches, 
-  we are able to understand how social connections in groups affect the ability of 
-  individuals to work together.
+excerpt: Why do some communities thrive and others succumb to dysfunction? There are deep roots to a healthy society, and, by implementing novel experimental approaches, we are able to understand how social connections in groups affect the ability of individuals to work together.
 ---
 
 Groups can have properties that transcend the individuals within them. While there are examples of healthy, vibrant communities all around us, many communities are plagued by dysfunction and are unable to meet the collective challenges they face. An analogy can help explain this: just as connecting the same carbon atoms differently has drastically different results – creating graphite or diamond – so too can putting the same people together in different ways result in functional or dysfunctional groups. In a stream of papers involving online experiments (published in PNAS in [2011], [2014], and [2019]), we have shown this to be the case.
