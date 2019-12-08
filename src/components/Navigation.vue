@@ -6,12 +6,9 @@
     </l>
     <div class="links flex">
       <div class="link uppercase text-white">
-        <Email 
-          :email="$static.metadata.email" 
-          :subject="$static.metadata.basicEmailSubject"
-          @click="track('email', 'click', 'Contact Us')">
-          Contact Us
-        </Email>
+        <button @click="onContact">
+          CONTACT US
+        </button>
       </div>
       <div class="link" v-for="link in links" :key="link.url">
           <l 
@@ -26,7 +23,20 @@
           </l>
         </div>
     </div>
-
+    <Modal v-model="contactOpen" class="rounded">
+      <div class="py-16 px-12 text-center text-black text-lg bg-white">
+        <p class="">
+          Email Nicholas at
+          <Email 
+            class="underline text-blue-500 hover:no-underline"
+            :email="$static.metadata.email" 
+            :subject="$static.metadata.basicEmailSubject"
+            @click="track('email', 'click', 'Contact Us')">
+            {{$static.metadata.email}}
+          </Email>
+        </p>
+      </div>
+    </Modal>
   </nav>
 </template>
 
@@ -42,12 +52,21 @@ query {
 <script lang="ts">
   import Vue from 'vue'
   import Email from '../components/Email.vue'
+  import Modal from '../components/Modal.vue'
 
   export default Vue.extend({
     name: 'Navigation',
-    components: { Email },
+    components: { Email, Modal },
     data () {
-      return require('../../data/navigation.json')
+      const d = require('../../data/navigation.json')
+      d.contactOpen = false
+      return d
+    },
+    methods: {
+      onContact () {
+        this.track('button', 'click', 'Contact Us')
+        this.contactOpen = true
+      }
     }
   })
 </script>
