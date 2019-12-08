@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     extend: {
       maxHeight: {
-        'project': '330px'
+        'project': '385px'
       },
       maxWidth: {
         '1/4': '25%',

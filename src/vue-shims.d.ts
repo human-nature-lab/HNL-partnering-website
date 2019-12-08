@@ -16,5 +16,6 @@ declare module 'vue/types/vue' {
     $ga: {
       event (o: SMap): void
     }
+    track (...args: string[]): void
   }
 }
