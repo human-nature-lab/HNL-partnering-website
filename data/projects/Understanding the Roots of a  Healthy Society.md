@@ -1,22 +1,27 @@
----json
-{
-  "title": "Understanding the Roots of a Healthy Society",
-  "priority": 4,
-  "excerpt": "Why do some communities thrive and others succumb to dysfunction? There are deep roots to a healthy society, and by implementing novel experimental approaches, we are able to understand how social connections in groups may affect the ability of individuals to work together.",
-  "goals": [{
-    "id": "A",
-    "cost": "$250,000",
-    "description": "This level of support would cover the costs of conducting pilot work in the lab setting and in the field. Funds directly support team member effort as well as operations for the pilot testing in Honduras over a 1-year period."
-  }, {
-    "id": "B",
-    "cost": "$1.9 million",
-    "description": "This level of support would cover the full design and implementation of this innovative research protocol using experimental tools to measure cooperation in 176 villages in Copan, Honduras as well as analysis work by our research team over 2.5 years. Expected outcomes would include published findings from this novel research program examining how the actual structure of human interactions in rural villages affects the common good."
-  }],
-  "image": {
-    "position": "50% 60%",
-    "src": "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/DSC_1235.jpg"
-  }
-}
+---
+priority: 4
+title: Understanding the Roots of a Healthy Society
+goals:
+- id: A
+  cost: "$250,000"
+  description: This level of support would cover the costs of conducting pilot work
+    in the lab setting and in the field. Funds directly support team member effort
+    as well as operations for the pilot testing in Honduras over a 1-year period.
+- id: B
+  cost: "$1.9 million"
+  description: This level of support would cover the full design and implementation
+    of this innovative research protocol using experimental tools to measure cooperation
+    in 176 villages in Copan, Honduras as well as analysis work by our research team
+    over 2.5 years. Expected outcomes would include published findings from this novel
+    research program examining how the actual structure of human interactions in rural
+    villages affects the common good.
+image:
+  position: 50% 60%
+  src: "../../assets/images/UNDERSTANDING THE ROOTS OF A HEALTHY SOCIETY/DSC_1235.jpg"
+excerpt: Why do some communities thrive and others succumb to dysfunction? There are
+  deep roots to a healthy society, and, by implementing novel experimental approaches,
+  we are able to understand how social connections in groups affect the ability of
+  individuals to work together.
 ---
 
 Groups can have properties not present within individuals themselves. We see examples of healthy, vibrant communities all around us, yet we know that many communities also seem plagued by dysfunction arising out of a failure to successfully meet challenges to the common good.  An analogy can help explain this: Just as connecting the same carbon atoms differently has drastically different results – creating graphite or diamond – so too can putting the same people together in different ways result in a dystopia or a “city on a hill.” In a stream of papers involving online experiments (published in PNAS in [2011], [2014], and [2019]), we have shown this to be the case.

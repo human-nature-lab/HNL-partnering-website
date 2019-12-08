@@ -1,22 +1,28 @@
----json
-{
-  "title": "Using Bots to Enhance Human Cooperation",
-  "priority": 3,
-  "image": {
-    "position": "50% 25%",
-    "src": "../../assets/images/USING BOTS TO ENHANCE HUMAN COOPERATION/embedded-bots-d.jpg"
-  },
-  "goals": [{
-    "id": "A",
-    "cost": "$250,000",
-    "description": "This level of support would cover costs related to additional pilot project work on using bots to enhance human cooperation, including support for software development on our <a href=\"http://breadboard.yale.edu\" target=\"_blank\" class=\"underline text-blue-500 hover:no-underline\">breadboard</a> platform, participant incentives, research assistance and analysis over a 1-year period."
-  }, {
-    "id": "B",
-    "cost": "$1.6 million",
-    "description": "This level of support would cover costs related to funding our full research team over the course of 2.5 years to develop and execute game theory-driven experimental scenarios, exploring how AI agents (bots) can affect behavior and validating these discoveries in real-world scenarios in the US and Honduras. Outcomes would include publication of significant new discoveries."
-  }],
-  "excerpt": "How can online bots, endowed with AI, enhance human cooperation? By rewiring social connections using autonomous agents, we can make groups of people more effective at cooperation and better able to solve diverse collective actions problems."
-}
+---
+priority: 3
+title: Using Bots to Enhance Human Cooperation
+goals:
+- id: A
+  cost: "$250,000"
+  description: This level of support would cover costs related to additional pilot
+    project work on using bots to enhance human cooperation, including support for
+    software development on our <a href="http://breadboard.yale.edu" target="_blank"
+    class="underline text-blue-500 hover:no-underline">breadboard</a> platform, participant
+    incentives, research assistance and analysis over a 1-year period.
+- id: B
+  cost: "$1.6 million"
+  description: This level of support would cover costs related to funding our full
+    research team over the course of 2.5 years to develop and execute game theory-driven
+    experimental scenarios, exploring how AI agents (bots) can affect behavior and
+    validating these discoveries in real-world scenarios in the US and Honduras. Outcomes
+    would include publication of significant new discoveries.
+image:
+  position: 50% 25%
+  src: "../../assets/images/USING BOTS TO ENHANCE HUMAN COOPERATION/embedded-bots-d.jpg"
+excerpt: How can online bots, endowed with particular kinds of AI, enhance human cooperation?
+  By rewiring social connections using autonomous agents, we can make groups of people
+  more effective at cooperation and better able to solve diverse collective actions
+  problems.
 ---
 
 Bots and AI entities (like Alexa or Siri) play an ever-increasing role in our everyday existence. Adding AI to our human social systems (to form what we call “hybrid systems” of humans and machines) may affect our ability to live and work together, for better or worse.
