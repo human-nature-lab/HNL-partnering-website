@@ -32,6 +32,7 @@
     "tailwindcss": "^1.0.4",
     "ts-loader": "^6.2.1",
     "tslint-config-standard": "^9.0.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "unist-util-select": "^3.0.0"
   }
 }
