@@ -1,6 +1,6 @@
 ---
 priority: 1
-title: Using Network Targeting Algorithms to Improve Human Welfare
+title: Changing Population Behavior by Targeting Structurally Influential Individuals
 goals:
 - id: A
   cost: "$350,000"

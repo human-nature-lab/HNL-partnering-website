@@ -6,7 +6,7 @@
           {{title}}
         </h1>
         <p>
-          Our lab works at the intersection of the biological, computational, and social sciences in diverse, cutting-edge areas &#151; from public health to the microbiome to genomics to artificial intelligence to organizational behavior to network science. Some of our latest and riskiest ideas are in need of financial support in order to move from the planning stages to reality.
+          Our lab works at the intersection of the biological, computational, and social sciences in diverse, cutting-edge areas &#151; from public health to the microbiome to genomics to artificial intelligence to organizational behavior to network science. Our work is unified by a focus on the deep origins and substantial consequences of human social interactions. Some of our latest and most innovative ideas are in need of financial support in order to move from the planning stages to reality. Nine projects are briefly described below.
         </p>
         <p class="py-4">
           Our team would welcome the chance to tell you more about our work in person and to explore how our work can advance your own philanthropic objectives. Please email Nicholas Christakis <Email :email="$static.metadata.email" :subject="$static.metadata.basicEmailSubject" class="underline text-blue-500 hover:no-underline" @click="track('email', 'click', 'description')">here</Email>, if you would like to meet to discuss any of these projects or your interests more generally.

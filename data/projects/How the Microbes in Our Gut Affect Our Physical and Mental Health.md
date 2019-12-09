@@ -11,9 +11,7 @@ goals:
 image:
   position: 50% 70%
   src: "../../assets/images/HOW DO THE GERMS IN OUR GUT AFFECT OUR PHYSICAL AND MENTAL HEALTH/Tree_of_life_SVG.png"
-excerpt: Can we map networks of microbe species in our guts in order to identify a set of species 
-  crucial to our physical and mental health? Our bodies form the environment in which large number 
-  of microbes live, and those microbes often work together to affect us, for better or worse.
+excerpt: Can we map networks of microbe species in our guts in order to identify a set of species crucial to our physical and mental health? Our bodies form the environment in which a large number of microbes live, and those microbes often work together to affect us, for better or worse.
 ---
 
 There are more microbial cells living in and on our bodies than there are human cells that make up our bodies in the first place. The number of genes that these microbes have exceeds the number of human genes by more than an order of magnitude. Work over the past ten years has increasingly documented the impact of these microbes, collectively known as ‘the microbiome,’ on our own physical and mental health. They affect our risk for obesity, malnutrition, diabetes, depression, dementia, and many other outcomes. To complicate matters, the microbes within us have their own complex inter-relationships, such that constellations of species may work together to affect our lives.

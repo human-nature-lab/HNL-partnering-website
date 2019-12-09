@@ -12,7 +12,7 @@ image:
   description: A group of participants play a tablet based game with a physical robot.
   src: "../../assets/images/USING ROBOTS TO PREVENT HUMAN CALAMITIES/kevin-marcus-robot-close.jpg"
   position: 50% 30%
-excerpt: How can physical robots affect collective action? By programming humanoid robots to speak and act in particular ways, we can modify how the humans observing the robots treat other humans, enhancing our ability to address collective action problems.
+excerpt: How can physical robots affect group behavior? By programming humanoid robots to speak and act in particular ways, we can modify how the humans observing the robots treat other humans, enhancing our ability to address collective action problems.
 
 ---
 
